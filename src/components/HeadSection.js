@@ -9,14 +9,18 @@ export default function HeadSection() {
       </div>
       <div className="my-[50px]  border-black border-t border-b ">
         <div className="my-[30px] flex ">
-          <span className=" text-[22px] border-r-2border-sky-500 border-r border-black">
-            <p className="mr-[40px] text-blue-600">Press Room</p>
+          <span className=" text-[22px] border-r-2border-sky-500 border-r border-black ">
+            <p className="mr-[40px] text-blue-600 cursor-pointer">Press Room</p>
           </span>
           <span className="  mx-[40px] text-[22px] border-r border-black">
-            <p className="mr-[40px]">Press Releases</p>
+            <p className="mr-[40px] cursor-pointer hover:text-blue-600">
+              Press Releases
+            </p>
           </span>
           <span className=" text-[22px]">
-            <p className="mr-[40px]">In The News</p>
+            <p className="mr-[40px] cursor-pointer hover:text-blue-600">
+              In The News
+            </p>
           </span>
         </div>
       </div>
