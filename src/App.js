@@ -1,6 +1,7 @@
 import "./App.css";
 import HeadSection from "./components/HeadSection";
 import ImageSlider from "./components/ImageSlider";
+import InTheNews from "./components/InTheNews";
 import PressRelease from "./components/PressReleases";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <HeadSection />
         <ImageSlider />
         <PressRelease />
+        <InTheNews />
       </div>
     </main>
   );
