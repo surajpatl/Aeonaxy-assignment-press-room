@@ -2,7 +2,7 @@ import Form from "./ContactForm";
 
 export default function ContactUs() {
   return (
-    <div className="mb-[1000px]">
+    <div className="mb-[750px]">
       <div className="grid grid-cols-3">
         <h1 className="text-4xl font-semibold mb-[60px]">Contact Us</h1>
         <div className="col-span-2">

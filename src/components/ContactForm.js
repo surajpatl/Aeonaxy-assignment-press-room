@@ -2,7 +2,7 @@ export default function Form() {
   return (
     <div>
       <form className="flex flex-col w-[650px] absolute ">
-        <div className="my-[60px] ">
+        <div className="mt-[100px] mb-[30px]">
           <input
             type="text"
             placeholder="First Name"
@@ -17,7 +17,7 @@ export default function Form() {
         <input
           type="text"
           placeholder="Email"
-          className="outline-none placeholder-black border-b border-black mr-[40px] my-[60px] p-2"
+          className="outline-none placeholder-black border-b border-black mr-[40px] my-[30px] p-2"
         />
         <div className="my-[60px]">
           <textarea
