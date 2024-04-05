@@ -1,5 +1,6 @@
 import "./App.css";
 import Cards from "./components/Cards";
+import ContactUs from "./components/ContactUs";
 import HeadSection from "./components/HeadSection";
 import ImageSlider from "./components/ImageSlider";
 import InTheNews from "./components/InTheNews";
@@ -16,6 +17,7 @@ function App() {
         <InTheNews />
         <Cards />
         <SocialIcons />
+        <ContactUs />
       </div>
     </main>
   );
