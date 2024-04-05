@@ -1,7 +1,7 @@
 export default function Cards() {
   return (
     <div>
-      <div className="grid grid-cols-3 gap-10 my-8">
+      <div className="grid grid-cols-3 gap-10 my-10">
         <div>
           <div className="relative group">
             <img

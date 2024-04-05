@@ -4,6 +4,7 @@ import HeadSection from "./components/HeadSection";
 import ImageSlider from "./components/ImageSlider";
 import InTheNews from "./components/InTheNews";
 import PressRelease from "./components/PressReleases";
+import SocialIcons from "./components/SocialIcons";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <PressRelease />
         <InTheNews />
         <Cards />
+        <SocialIcons />
       </div>
     </main>
   );
