@@ -1,4 +1,5 @@
 import "./App.css";
+import BottomLogos from "./components/BottomLogos";
 import Cards from "./components/Cards";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
@@ -11,7 +12,7 @@ import SocialIcons from "./components/SocialIcons";
 function App() {
   return (
     <main className="w-full bg-white">
-      <div className="mx-[15%]">
+      <div className="lg:mx-[15%] sm:mx-[5%] min-[320px]:mx-[2%] min-[320px]:m-0">
         <HeadSection />
         <ImageSlider />
         <PressRelease />
@@ -21,6 +22,7 @@ function App() {
         <ContactUs />
       </div>
       <Footer />
+      <BottomLogos />
     </main>
   );
 }

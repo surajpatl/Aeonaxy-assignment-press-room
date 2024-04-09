@@ -1,23 +1,23 @@
 export default function HeadSection() {
   return (
     <div className="max-w-[1480px] bg-white w-full h-full flex flex-col justify-between">
-      <div className="flex flex-col mt-[70px]">
-        <h1 className="text-7xl font-bold mb-[10px]">Press Room</h1>
-        <span className="w-full text-xl font-medium ">
+      <div className="flex flex-col lg:mt-[70px] min-[320px]:mt-[30px]">
+        <h1 className="lg:text-7xl sm:text-4xl min-[320px]:text-3xl font-bold mb-[10px]">Press Room</h1>
+        <span className="w-full text-xl font-medium min-[320px]:text-lg ">
           All the News You Need to Know about Wix
         </span>
       </div>
-      <div className="my-[50px]  border-black border-t border-b ">
-        <div className="my-[30px] flex ">
-          <span className=" text-[22px] border-r-2border-sky-500 border-r border-black ">
+      <div className="lg:my-[50px] min-[320px]:my-[20px]  border-black border-t border-b ">
+        <div className="lg:my-[30px] min-[320px]:my-[10px] flex ">
+          <span className=" lg:text-[22px] min-[320px]:text-[13px]   border-r-2border-sky-500 border-r border-black ">
             <p className="mr-[40px] text-blue-600 cursor-pointer">Press Room</p>
           </span>
-          <span className="  mx-[40px] text-[22px] border-r border-black">
+          <span className="  mx-[40px] lg:text-[22px] min-[320px]:text-[13px] border-r border-black">
             <p className="mr-[40px] cursor-pointer hover:text-blue-600">
               Press Releases
             </p>
           </span>
-          <span className=" text-[22px]">
+          <span className=" lg:text-[22px] min-[320px]:text-[13px]">
             <p className="mr-[40px] cursor-pointer hover:text-blue-600">
               In The News
             </p>
@@ -25,7 +25,7 @@ export default function HeadSection() {
         </div>
       </div>
       <div>
-        <p className="text-[20px] leading-loose">
+        <p className="lg:text-[20px] min-[320px]:text-[13px] leading-loose">
           Wix is leading the way with a cloud-based development platform for
           users worldwide. Wix was founded on the belief that the Internet
           should be accessible to everyone to develop, create and contribute.

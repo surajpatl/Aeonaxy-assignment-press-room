@@ -1,7 +1,9 @@
 export default function SocialIcons() {
   return (
-    <div className="my-[150px]">
-      <h1 className="text-4xl font-semibold mb-[60px]">Social </h1>
+    <div className="lg:my-[150px] min-[320px]:my-[90px]">
+      <h1 className="text-4xl min-[320px]:text-3xl font-semibold lg:mb-[60px] min-[320px]:mb-[30px]">
+        Social{" "}
+      </h1>
       <div className="grid grid-cols-5 w-full h-auto ">
         <div className=" grid items-center">
           <span className="justify-self-center relative group">

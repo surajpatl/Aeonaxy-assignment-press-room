@@ -1,7 +1,7 @@
 export default function Cards() {
   return (
     <div>
-      <div className="grid grid-cols-3 gap-10 my-10">
+      <div className="grid grid-cols-3 lg:gap-10 min-[320px]:gap-5 my-10">
         <div>
           <div className="relative group">
             <img
@@ -15,8 +15,10 @@ export default function Cards() {
               alt=""
             />
           </div>
-          <h3 className="mt-10 font-bold text-xl">Brand Assets </h3>
-          <p className="mt-4 leading-7">
+          <h3 className="lg:mt-10 min-[320px]:mt-5 font-bold text-xl ">
+            Brand Assets{" "}
+          </h3>
+          <p className="mt-4 leading-7 min-[320px]:mt-2 whitespace-normal">
             All of the official design assets and guidelines used by Wix can be
             found here, along with all the information you need about our
             graphic elements and the philosophy behind them.
@@ -35,8 +37,10 @@ export default function Cards() {
               alt=""
             />
           </div>
-          <h3 className="mt-10 font-bold text-xl">About Us</h3>
-          <p className="mt-4 leading-7">
+          <h3 className="lg:mt-10 min-[320px]:mt-5 font-bold text-xl ">
+            About Us
+          </h3>
+          <p className="mt-4 leading-7 min-[320px]:mt-2 whitespace-normal">
             Wix makes it easy for everyone to get online with a stunning,
             professional and powerful web presence. Learn more about our
             company, customers, products and people.
@@ -55,8 +59,10 @@ export default function Cards() {
               alt=""
             />
           </div>
-          <h3 className="mt-10 font-bold text-xl">Investor Relations</h3>
-          <p className="mt-4 leading-7">
+          <h3 className="lg:mt-10 min-[320px]:mt-5 font-bold text-xl ">
+            Investor Relations
+          </h3>
+          <p className="mt-4 leading-7 min-[320px]:mt-2 whitespace-normal">
             Information about Wix for investors and financial analysts. You can
             also find a company glossary, stats, and a list of IR events and
             presentations.
